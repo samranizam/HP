@@ -1,0 +1,55 @@
+h1{
+	border: solid black 2px;
+	margin:0% 5% 5% 5%;
+	padding: 30px;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	float:up;
+	background-color: #7B68EE;
+	 animation-name: example;
+  animation-duration: 20s;
+}
+
+@keyframes example {
+  0% {
+    background: red;
+  }
+  
+  50% {
+    background: yellow;
+  }
+  75% {
+    background: green;
+  }
+  100%{
+	  background:blue;
+}
+}
+p{
+	background-color: #FFB6C1;
+	margin : 5% 5% 5% 5%;
+	padding: 30px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Comic Sanz MS" ,Times ,serif;
+}
+nav a{
+	background-color:black;
+	color: white;
+	display:block;
+	text-decoration:none;
+	margin: 2% 2%;
+	padding: 10px;
+	font-size:30px;
+}
+a:hover{
+	background-color: red;
+	color:black;
+}
+html { 
+  background: url(https://c.wallhere.com/photos/02/ee/anime_magic-1434775.jpg!d)  repeat center center fixed; 
+  -webkit-background-size: 70%;
+  -moz-background-size: repeat;
+  -o-background-size: repeat;
+  background-size: repeat;

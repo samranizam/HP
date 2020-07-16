@@ -1,0 +1,59 @@
+h1{
+	border: solid black 2px;
+	margin:5% 5%;
+	padding: 30px;
+	background: url("C:\Users\samra\Desktop\img.jpg");
+	background-color: red;
+	text-align: center;
+	font-size: 70px;
+	 animation-name: example;
+  animation-duration: 20s;
+}
+
+@keyframes example {
+  0% {
+    background: red;
+  }
+  
+  50% {
+    background: green;
+  }
+  75% {
+    background: blue;
+  }
+  100%{
+	  background:yellow;
+}
+}
+p{
+	background-color: white;
+	text-align: center;
+	font-size: 30px;
+	font-style: Oswald;
+}
+nav a{
+	background-color:black;
+	color: white;
+	display:block;
+	text-decoration:none;
+	margin: 2% 2%;
+	padding: 10px;
+	font-size:30px;
+}
+a:hover{
+	background-color: red;
+	color:black;
+}
+html { 
+  background: url(https://thumbs.dreamstime.com/z/youth-seamless-pattern-school-magic-witchcraft-magical-items-broom-flying-talking-hat-mantle-invisibility-hgwarts-cup-170548815.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+DIV{
+	text-align: right;
+	font-size: 15px;
+	background-color:black;
+	color: white;
+}

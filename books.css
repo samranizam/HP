@@ -1,0 +1,49 @@
+nav a{
+	background-color: white;
+	display: inline-block;
+	margin: 30px  70px 40px 70px;
+	padding: 30px 30px 30px 30px;
+	border: 3px solid black;
+	transition: width 2s, height 4s;
+}
+
+a:hover {
+	background-color: red;
+  width: 150px;
+  height: 160px;
+}
+h1{
+	border: solid black 2px;
+	margin:0% 5% 5% 5%;
+	padding: 30px;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	float:up;
+	background-color: yellow;
+	 animation-name: example;
+  animation-duration: 20s;
+}
+
+@keyframes example {
+  0% {
+    background: red;
+  }
+  
+  50% {
+    background: yellow;
+  }
+  75% {
+    background: green;
+  }
+  100%{
+	  background:blue;
+}
+}
+html { 
+  background: url(https://scontent.fknu1-1.fna.fbcdn.net/v/t1.0-9/40461454_1070202679809432_6803127067564048384_n.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=4zzs2pzNt6EAX9Cu6ik&_nc_ht=scontent.fknu1-1.fna&oh=7fe462627b6a4334d34c93a502b501ff&oe=5F30D6EF) repeat center center fixed; 
+  -webkit-background-size: ;
+  -moz-background-size: repeat;
+  -o-background-size: repeat;
+  background-size: repeat;
+}

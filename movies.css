@@ -1,0 +1,42 @@
+h1{
+	border: solid black 2px;
+	margin:0% 5% 5% 5%;
+	padding: 30px;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	float:up;
+	background-color: yellow;
+	 animation-name: example;
+  animation-duration: 20s;
+}
+
+@keyframes example {
+  0% {
+    background: red;
+  }
+  
+  50% {
+    background: yellow;
+  }
+  75% {
+    background: green;
+  }
+  100%{
+	  background:blue;
+}
+}
+nav a{
+	display:inline-block;
+	margin: 30px  70px 40px 70px;
+	padding: 30px 30px 30px 30px;
+	border: 3px solid black;
+	background-color: white;
+}
+html { 
+  background: url(https://wallpaperaccess.com/full/1093650.jpg) repeat center center fixed; 
+  -webkit-background-size: ;
+  -moz-background-size: repeat;
+  -o-background-size: repeat;
+  background-size: repeat;
+}
